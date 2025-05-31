@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Grille tarifaire</title>
+    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+  </head>
+  <body>
+    <h1 style="text-align:center;">Nos Tarifs</h1>
+    <stripe-pricing-table
+      pricing-table-id="prctbl_1RUhpAFkwZQ3tDxnz58SwChw"
+      publishable-key="pk_live_51RSpcuFkwZQ3tDxnN1gF6RUlZW2jMfUBHHAtICssBv6GgowUwEVBnkMJnE9xfTfDvbXQqHez0OBOSl5hmiVyUI3D009FIeKTkF">
+    </stripe-pricing-table>
+  </body>
+</html>
